@@ -27,7 +27,12 @@ YaCRM/
 ├──proxy_send.php
 └──vless_send.php
 ```
-Найти код:
+*Заполнить переменные:*
+```php
+$campaignId = 'Ид кампании (не кабинет)';
+$apiKey = 'токен';
+```
+После этого, найти код:
 ```php
   // Отправляем цифровой ключ
     $urlDeliver = "https://api.partner.market.yandex.ru/campaigns/$campaignId/orders/$orderId/deliverDigitalGoods";
