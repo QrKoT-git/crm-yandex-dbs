@@ -20,7 +20,7 @@
 - *В файле keys_pool.txt указать ссылки на ключи (каждая ссылка с новой строки)*
 
 Файл order_pull_send.php отправляет ссылки из файла `keys_pull.txt`
-В файлах 
+- В файлах 
 ```
 YaCRM/
 ├──order_pull_send.php
